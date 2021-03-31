@@ -1,0 +1,92 @@
+
+@import "mixins/normalize";
+@import "mixins/gsapLineAnimation";
+@import 'mixins/avalonAnimation';
+@import "mixins/buttons";
+
+body {
+
+  --primary: var(--purp);
+  --primaryHighlight: var(--purp-10);
+  --accent: var(--teal);
+  --accentHighlight: var(--teal-10);
+  --warning: var(--red);
+  --warningHighlight: var(--red-10);
+  --success: var(--green);
+  --successHighlight: var(--green-10);
+  --codeBg: var(--footerBg);
+
+
+  --purp-hs: 264,16%;
+  --purp-l: 33%;
+  --purp: hsl(var(--purp-hs), var(--purp-l));
+  --purp-10: hsl(var(--purp-hs), calc(var(--purp-l) + 10%));
+  --purp-60: hsl(var(--purp-hs), calc(var(--purp-l) + 60%));
+  --darkPurp-hs: 261,15%;
+  --darkPurp-l: 23%;
+  --darkPurp: hsl(var(--darkPurp-hs), var(--darkPurp-l));
+  --darkPurp-10: hsl(var(--darkPurp-hs), calc(var(--darkPurp-l) + 10%));
+  --xPurp-hs: 261,31%;
+  --xPurp-l: 11%;
+  --xPurp: hsl(var(--xPurp-hs), var(--xPurp-l));
+  --xPurp-10: hsl(var(--xPurp-hs), calc(var(--xPurp-l) + 10%));
+  --grey: hsl(0, 0%, 85%);
+  --green: hsl(73, 70%, 66%);
+  --green-10: hsl(73, 70%, 76%);
+  --teal: hsl(180, 52%, 68%);
+  --teal-10: hsl(180, 52%, 78%);
+  --red: hsl(0, 75%, 60%);
+  --red-10: hsl(0, 75%, 70%);
+  --pink: hsl(335, 70%, 48%);
+  --pink-10: hsl(335, 70%, 58%);
+  --syntaxYellow-hs: 40,83%;
+  --syntaxYellow: hsl(var(--syntaxYellow-hs), 65%);
+  --yellow: var(--syntaxYellow);
+  --xBlack: hsl(0, 0%, 10%);
+  --black: hsl(0, 0%, 10%);
+  --black-30: hsl(0, 0%, 30%);
+  --black-40: hsl(0, 0%, 40%);
+  --black-50: hsl(0, 0%, 50%);
+  --white-60: hsl(0, 0%, 60%);
+  --white-70: hsl(0, 0%, 70%);
+  --white-80: hsl(0, 0%, 80%);
+  --white-90: hsl(0, 0%, 90%);
+  --white: hsl(0, 0%, 100%);
+  --twitter: hsl(196, 100%, 46%);
+  --facebook: hsl(221, 44%, 41%);
+  --google: hsl(7, 71%, 55%);
+  --youtube: hsl(0, 100%, 37%);
+
+  --bg: var(--primary);
+  --lineColor: var(--white-80);
+  --zebraBg: var(--white-90);
+  --textUnderlineColor: #82d8d866;
+  --pinnedColor: var(--darkPurp);
+  --placeholder: var(--purp-60);
+  --inputBorderColor: var(--black);
+
+  --baseFontSize: 1rem;
+  --baseNavSize: 0.64rem;
+  --smallFontSize: 0.8rem;
+  --smallestFontSize: 0.512rem;
+  --xtra-big-ass-heading: 3.052rem;
+  --xtra-heading: 2.441rem;
+  --heading-1: 1.953rem;
+  --heading-2: 1.563rem;
+  --heading-3: 1.25rem;
+  --heading-4: var(--baseFontSize);
+  --heading-5: var(--smallFontSize);
+  --heading-6: 0.64rem;
+  --heading-7: var(--smallestFontSize);
+  // --headingFont: "Poppins",sans-serif;
+  // --bodyFont: "Raleway",sans-serif;
+
+  --level-0: inset 0 7px 9px -7px rgba(0, 0, 0, 0.7);
+  --level-1: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+  --level-2: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  --level-3: 0 10px 20px rgba(0, 0, 0, 0.1),0 6px 6px rgba(0, 0, 0, 0.1);
+  --level-4: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+  --level-5: 0 19px 38px rgba(0, 0, 0, 0.3),0 15px 12px rgba(0, 0, 0, 0.22);
+
+  --transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) all;
+}

@@ -1,0 +1,45 @@
+.containerBox {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  overflow-x: hidden;
+  border: 1px solid turquoise;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
+
+.a {
+  background: var(--accent);
+}
+.b {
+  background: var(--purp);
+}
+.c {
+  background: rebeccapurple;
+}
+.lineMovement {
+  background: black;
+  overflow: hidden;
+}
+.lineMovement svg {
+  max-width: 600px;
+  overflow: visible;
+  margin-top: 10vh;
+}
+.lineMovement .ball {
+  fill: white;
+  visibility: hidden;
+}
+.lineMovement .line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+.lineMovement text {
+  fill: white;
+  visibility: hidden;
+}
