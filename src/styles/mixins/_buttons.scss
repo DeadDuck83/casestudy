@@ -2,7 +2,6 @@
 .btn {
  color:white;
  text-decoration:none;
- padding:5px 10px;
  border-radius:3px;
  font-size:var(--baseFontSize);
  background: var(--primary);
@@ -10,7 +9,10 @@
  padding: 10px 20px;
  margin: 20px 20px 20px 0;
  display: block;
+ &.center {
+   margin: 20px auto;
+ }
 &:hover {
-  background-color: var(--accent);
+  background-color: var(--primaryHighlight);
 }
 }

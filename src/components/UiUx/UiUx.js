@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import UxUiWrapper from './UiUx.styled';
-import Image from 'next/image'
+import Image from 'next/image';
+
 
 const UiUx = () => {
   return (
@@ -25,7 +26,7 @@ const UiUx = () => {
             />
             <h3>UI/UX-DESIGN</h3>
             <p>UI and UX work hand in hand. You only get great UI withe great UX and vice-versa. Take a look at some of my Graphic Design and UI work on my Behance Portfolio.</p>
-            <button type="button" className="button"></button>
+            <button type="button" className="btn  center">Behance Portfolio</button>
           </div>
           <div className="card dev">
             <Image
@@ -36,9 +37,9 @@ const UiUx = () => {
               height={296}
               width={480}
             />
-            <h3>UI/UX-DESIGN</h3>
-            <p>UI and UX work hand in hand. You only get great UI withe great UX and vice-versa. Take a look at some of my Graphic Design and UI work on my Behance Portfolio.</p>
-            <button type="button" className="button"></button>
+            <h3>Development</h3>
+            <p>I love design but I also love to code. I know, I’m a bit of a weird mixed bag of skills. I love to see how things work from conception to execution. Check out my repo’s on Github.</p>
+            <button type="button" className="btn center">Github Portfolio</button>
           </div>
         </div>
       </div>

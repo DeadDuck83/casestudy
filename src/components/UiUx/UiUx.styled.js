@@ -42,4 +42,14 @@ export default styled.div`
       }
     }
   }
+  @media (max-width: 700px) {
+.wrapper {
+  .cards {
+    grid-template-columns: 1fr;
+    .card {
+      margin: 0 auto;
+    }
+  }
+}
+  }
 `;

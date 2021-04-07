@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export default styled.section`
-background: var(--teal);
+background: var(--alabaster);
+padding: 3rem;
 .intro {
   max-width: var(--containerMax);
   margin: 0 auto;
@@ -9,7 +10,6 @@ background: var(--teal);
   .burst {
     margin: 0 auto;
     text-align: center;
-    padding: 2rem 0 0 0;
   }
   p {
     max-width: 70ch;
@@ -19,7 +19,7 @@ background: var(--teal);
 }
 
 @media (max-width: 700px) {
-  background:orange;
+  padding: 2rem;
   .intro {
 
     padding: 2rem;
