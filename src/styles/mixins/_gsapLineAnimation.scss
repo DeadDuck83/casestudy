@@ -1,6 +1,6 @@
 .containerBox {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   overflow-x: hidden;
   border: 1px solid turquoise;
 }
@@ -20,6 +20,7 @@
 }
 .c {
   background: rebeccapurple;
+  height: 50vh;
 }
 .lineMovement {
   background: black;

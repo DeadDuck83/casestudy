@@ -31,13 +31,13 @@ function GsapLineAnimation() {
     gsap.set(".ball", {xPercent: -50, yPercent: -50})
     let tl = gsap.timeline({
       defaults: {
-        duration: 0.05, 
-        autoAlpha: 1, 
-        scale: 2, 
-        transformOrigin: 'center', 
+        duration: 0.05,
+        autoAlpha: 1,
+        scale: 2,
+        transformOrigin: 'center',
         ease: "elastic(2.5, 1)"
       }})
-    .to(".ball02, .text01", {}, 0.2) 
+    .to(".ball02, .text01", {}, 0.2)
     .to(".ball03, .text02", {}, 0.33)
     .to(".ball04, .text03", {}, 0.46)
 
@@ -62,7 +62,7 @@ function GsapLineAnimation() {
     <section>
       <div className="containerBox">
         <div ref={boxA} className='box a text-4xl'><p>a</p></div>
-        <div ref={boxB} className='box b'><p>b</p></div>
+        <div ref={boxB} className='box b'><p>Hello, i like to design and code</p></div>
         <div ref={boxC} className='box c'><button type='button' onClick={(e) => fadeAway(e.target.innerText)}>Button</button><p>c</p></div>
       </div>
       <div className="lineMovement">
@@ -76,14 +76,14 @@ function GsapLineAnimation() {
   <text class="text02" x="30" y="390">2019</text>
   <text class="text03" x="30" y="590">2020</text>
 
-  <path class="theLine" 
+  <path class="theLine"
         d="M -5,0
-           Q 450 230 300 450 
+           Q 450 230 300 450
            T 130 750
            Q 100 850 300 1000
            T 150 1200"
         fill="none" stroke="white" stroke-width="10px" />
-  
+
   <circle class="ball ball01" r="20" cx="25" cy="25"></circle>
   <circle class="ball ball02" r="20" cx="298" cy="221"></circle>
   <circle class="ball ball03" r="20" cx="347" cy="419"></circle>
