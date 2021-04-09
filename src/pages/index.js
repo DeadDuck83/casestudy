@@ -9,6 +9,17 @@ import Intro from '../components/Intro';
 import Skills from '../components/Skills';
 
 export default function Home() {
+  const homepageContent = {
+    caseStudy: {
+      headline: 'Case Studies',
+      body: 'Case studies are a great way to let people peak behind the curtain to learn more about projects… because some of the most important steps that are taken in any project are the ones that most people never see or hear about but are the most interesting and educational. Here I provide several examples of UX / UI and Development.',
+      link: '/work',
+      linkText:'See all my case studies',
+      imageOn: 'right',
+      imageUrl: '/images/UX-w.jpeg',
+    }
+  }
+
   return (
     <div>
       <Head>
@@ -29,12 +40,13 @@ export default function Home() {
         <Skills />
 
         {/* <GsapLineAnimation /> */}
-        <SplitContent imageOn='right' />
+        <SplitContent content={homepageContent} />
         <UiUx />
         <section>
           <div className="contact">
             <h3>Contact</h3>
             <p>do I need this?</p>
+            <p>Social Media is needed</p>
           </div>
         </section>
         <section>
