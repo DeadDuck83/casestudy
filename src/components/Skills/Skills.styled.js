@@ -50,16 +50,22 @@ p {
   grid-gap: 1rem;
 
   .skill {
-    background: var(--accent);
-    color: var(--alabaster);
+    background: var(--alabaster);
+    color: var(--primary);
     display: grid;
     grid-template-columns: 20px 1fr;
     overflow: hidden;
     align-items: center;
-
+    border-radius: 7px;
+    box-shadow: 0 0 0 2px var(--old-burgundy), 0 0 0 14px var(--peach);
     span {
       padding: 0 1rem;
       text-align: left;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 7px;
     }
   }
 }

@@ -20,67 +20,79 @@ const Skills = props => {
           <TabPanel>
             <div className="skills">
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="icon" />
+                <img src="/images/icons/photoshop-v5.jpg" alt="Photo Editing" />
                 <span>Photo Editing</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="2icon" />
+                <img src="/images/icons/vector-graphic-v5.jpg" alt="Vector Graphics" />
                 <span>Vector Graphics</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/typography-v5.jpg" alt="Typography" />
                 <span>Typography</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
-                <span>Illustration</span>
+                <img src="/images/icons/illustrator-v5.jpg" alt="Illustration" />
+                <span>User Testing</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/graphics-v5.jpg" alt="Graphic Design" />
                 <span>Graphic Design</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
                 <span>Color Palette</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
+                <span>Figma</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
+                <span>Adobe XD</span>
               </div>
             </div>
           </TabPanel>
           <TabPanel>
             <div className="skills">
             <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/javascript-v5.jpg" alt="3icon" />
                 <span>Javascript</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="icon" />
+                <img src="/images/icons/react-v5.jpg" alt="icon" />
                 <span>React</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="2icon" />
+                <img src="/images/icons/next-v5.jpg" alt="2icon" />
                 <span>Next js</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/html-css-v5.jpg" alt="3icon" />
                 <span>HTML/CSS</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/sass-v5.jpg" alt="3icon" />
                 <span>Sass</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/graphql-v5.jpg" alt="3icon" />
                 <span>Graph QL</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/graphql-v5.jpg" alt="3icon" />
+                <span>CommerceTools</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/apollo-v5.jpg" alt="3icon" />
                 <span>Apollo</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/storybook-v5.jpg" alt="3icon" />
                 <span>Storybook</span>
               </div>
               <div className="skill">
-                <img src="https://via.placeholder.com/30" alt="3icon" />
+                <img src="/images/icons/gsap-v5.jpg" alt="3icon" />
                 <span>Gsap</span>
               </div>
             </div>
