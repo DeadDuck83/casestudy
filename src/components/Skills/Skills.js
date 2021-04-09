@@ -13,46 +13,10 @@ const Skills = props => {
           <p className="skillIntro">Here are the programs and languages that I am know:</p>
           <Tabs>
           <TabList>
+          <Tab className="btn customBtn" type="button">Software development</Tab>
             <Tab className="btn customBtn" type="button">UI/UX design</Tab>
-            <Tab className="btn customBtn" type="button">Software development</Tab>
-          </TabList>
 
-          <TabPanel>
-            <div className="skills">
-              <div className="skill">
-                <img src="/images/icons/photoshop-v5.jpg" alt="Photo Editing" />
-                <span>Photo Editing</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/vector-graphic-v5.jpg" alt="Vector Graphics" />
-                <span>Vector Graphics</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/typography-v5.jpg" alt="Typography" />
-                <span>Typography</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/illustrator-v5.jpg" alt="Illustration" />
-                <span>User Testing</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/graphics-v5.jpg" alt="Graphic Design" />
-                <span>Graphic Design</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
-                <span>Color Palette</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
-                <span>Figma</span>
-              </div>
-              <div className="skill">
-                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
-                <span>Adobe XD</span>
-              </div>
-            </div>
-          </TabPanel>
+          </TabList>
           <TabPanel>
             <div className="skills">
             <div className="skill">
@@ -97,6 +61,43 @@ const Skills = props => {
               </div>
             </div>
           </TabPanel>
+          <TabPanel>
+            <div className="skills">
+              <div className="skill">
+                <img src="/images/icons/photoshop-v5.jpg" alt="Photo Editing" />
+                <span>Photo Editing</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/vector-graphic-v5.jpg" alt="Vector Graphics" />
+                <span>Vector Graphics</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/typography-v5.jpg" alt="Typography" />
+                <span>Typography</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/illustrator-v5.jpg" alt="Illustration" />
+                <span>User Testing</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/graphics-v5.jpg" alt="Graphic Design" />
+                <span>Graphic Design</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
+                <span>Color Palette</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
+                <span>Figma</span>
+              </div>
+              <div className="skill">
+                <img src="/images/icons/colors-v5.jpg" alt="Colors" />
+                <span>Adobe XD</span>
+              </div>
+            </div>
+          </TabPanel>
+
         </Tabs>
         </div>
 
