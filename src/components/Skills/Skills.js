@@ -93,7 +93,7 @@ const Skills = props => {
               </div>
               <div className="skill">
                 <img src="/images/icons/gsap-v5.jpg" alt="3icon" />
-                <span>Gsap</span>
+                <span>Gsap3</span>
               </div>
             </div>
           </TabPanel>
