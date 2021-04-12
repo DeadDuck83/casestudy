@@ -39,7 +39,7 @@ const LargeBackgroundSection = () => {
       <div className="centerContent">
         <h1>Derek Moore</h1>
         <span>Front-End Developer / UX Designer</span>
-        <button type="button" className="btn">
+        <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
         </button>
       </div>
