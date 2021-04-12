@@ -37,8 +37,8 @@ const LargeBackgroundSection = () => {
       />
       </div>
       <div className="centerContent">
-        <h1>Derek Moore</h1>
-        <span>Front-End Developer / UX Designer</span>
+        <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1>
+        <p>Front-End Developer / UX Designer</p>
         <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
         </button>

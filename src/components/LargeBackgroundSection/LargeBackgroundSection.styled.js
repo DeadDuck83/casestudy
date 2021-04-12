@@ -17,7 +17,7 @@ align-items: center;
 overflow: hidden;
 div {
   /* z-index: 1; */
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 img {
   overflow: hidden;

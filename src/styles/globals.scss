@@ -5,6 +5,7 @@
 @import "mixins/buttons";
 
 body {
+  @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
 
   --primary: var(--catawba);
   --primaryHighlight: var(--catawba-10);
@@ -111,10 +112,14 @@ body {
 
 
   h1 {
-    font-size: var(--heading-1);
+    font-size: var(--xtra-big-ass-heading);
+    font-family: 'Elsie Swash Caps', sans-serif;
+    font-weight: 900;
   }
   h2 {
-    font-size: var(--heading-2);
+    font-size: var(--xtra-heading);
+    font-family: 'Elsie Swash Caps', sans-serif;
+    font-weight: 900;
   }
   h3 {
     font-size: var(--heading-3);
