@@ -5,6 +5,7 @@ import Image from "next/image";
 import ScrollDown from "../ScrollDown";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import AnimatedWords from '../AnimatedWords';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,7 +16,7 @@ const LargeBackgroundSection = () => {
     console.log("here");
     gsap.to(bgImage.current, {
       scrollTrigger: {
-        scrub: true,
+        scrub: 0.2,
         trigger: bgImage.current,
         start: "top top",
         end: "bottom top",
@@ -37,7 +38,9 @@ const LargeBackgroundSection = () => {
       />
       </div>
       <div className="centerContent">
-        <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1>
+
+        {/* <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1> */}
+        <AnimatedWords />
         <p>Front-End Developer / UX Designer</p>
         <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
