@@ -3,27 +3,56 @@ import PropTypes from "prop-types";
 import LargeBackgroundSectionWrapper from "./LargeBackgroundSection.styled";
 import Image from "next/image";
 import ScrollDown from "../ScrollDown";
-import { gsap } from "gsap/dist/gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
 
 const bgImage = React.createRef();
 
 const LargeBackgroundSection = () => {
+
+  // animate the thing:
+  function doSomething() {
+    bgImage.current.setAttribute('class', 'demo bgwrap');
+  }
+
+
   React.useEffect(() => {
-    console.log("here");
-    gsap.to(bgImage.current, {
-      scrollTrigger: {
-        scrub: true,
-        trigger: bgImage.current,
-        start: "top top",
-        end: "bottom top",
-        markers: false,
-      }, // start the animation when "bgImage" enters the viewport (once)
-      y: 200,
+    console.log(bgImage.current.getBoundingClientRect());
+    // first: get the current bounds
+    let first = bgImage.current.getBoundingClientRect();
+
+    // execute the script that causes layout to change
+    doSomething();
+
+    // last: get the final bounds
+    const last = bgImage.current.getBoundingClientRect();
+
+    // Invert: determine the delta between the
+    // first and last bounds to invert the element
+    const deltaX = first.left - last.left;
+    const deltaY = first.top - last.top;
+    const deltaW = first.width / last.width;
+    const deltaH = first.height / last.height;
+
+    // Play: animate the final element from its first bounds
+    // to its last bounds (which is no transform)
+    bgImage.current.animate([{
+      transformOrigin: 'top left',
+      transform: `
+        translate(${deltaX}px, ${deltaY}px)
+        scale(${deltaW}, ${deltaH})
+      `
+    }, {
+      transformOrigin: 'top left',
+      transform: 'none'
+    }], {
+      duration: 300,
+      easing: 'ease-in-out',
+      fill: 'both'
     });
-  }, []);
+
+
+
+  }, [bgImage.current]);
 
   return (
     <LargeBackgroundSectionWrapper>

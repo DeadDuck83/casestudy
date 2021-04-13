@@ -29,6 +29,9 @@ img {
   overflow: hidden;
   z-index: -1;
   /* background: black; */
+  &.demo {
+    top: 200px;
+  }
 }
 
 .action {
