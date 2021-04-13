@@ -5,6 +5,7 @@ import Image from "next/image";
 import ScrollDown from "../ScrollDown";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import AnimatedWords from '../AnimatedWords';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,6 +13,7 @@ const bgImage = React.createRef();
 
 const LargeBackgroundSection = () => {
   React.useEffect(() => {
+    ScrollTrigger.refresh()
     console.log("here");
     gsap.to(bgImage.current, {
       scrollTrigger: {
@@ -20,6 +22,7 @@ const LargeBackgroundSection = () => {
         start: "top top",
         end: "bottom top",
         markers: false,
+        immediateRender: false
       }, // start the animation when "bgImage" enters the viewport (once)
       y: 200,
     });
@@ -36,13 +39,15 @@ const LargeBackgroundSection = () => {
         quality={100}
       />
       </div>
-      <div className="centerContent">
-        <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1>
-        <p>Front-End Developer / UX Designer</p>
+      <div className="center">
+
+        {/* <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1> */}
+        <AnimatedWords />
+        <p>website experiences</p>
         <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
         </button>
-      </div>
+</div>
 
 
       <ScrollDown />
