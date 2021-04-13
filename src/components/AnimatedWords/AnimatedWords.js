@@ -17,18 +17,18 @@ const AnimatedWords = (props) => {
 
   return (
     <AnimatedWordsWrapper>
-      <h2 className="title"></h2>
+      <h2 className="title">I like,</h2>
       <div className="svg">
         <svg>
           <mask id="textMask" class="filled-heading">
             <g class="first">
-              <text y="70">Developer</text>
+              <text y="70">Developing</text>
             </g>
             <g class="second">
-              <text y="70">Designer</text>
+              <text y="70">Designing</text>
             </g>
             <g class="third">
-              <text y="70">DIY'er</text>
+              <text y="70">DIYing</text>
             </g>
           </mask>
 

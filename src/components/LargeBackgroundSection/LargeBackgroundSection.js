@@ -13,14 +13,16 @@ const bgImage = React.createRef();
 
 const LargeBackgroundSection = () => {
   React.useEffect(() => {
+    ScrollTrigger.refresh()
     console.log("here");
     gsap.to(bgImage.current, {
       scrollTrigger: {
-        scrub: 0.2,
+        scrub: true,
         trigger: bgImage.current,
         start: "top top",
         end: "bottom top",
         markers: false,
+        immediateRender: false
       }, // start the animation when "bgImage" enters the viewport (once)
       y: 200,
     });
@@ -37,15 +39,15 @@ const LargeBackgroundSection = () => {
         quality={100}
       />
       </div>
-      <div className="centerContent">
+      <div className="center">
 
         {/* <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1> */}
         <AnimatedWords />
-        <p>Front-End Developer / UX Designer</p>
+        <p>website experiences</p>
         <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
         </button>
-      </div>
+</div>
 
 
       <ScrollDown />

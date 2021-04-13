@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export default styled.section`
+export default styled.div`
 
 /* Basic styling */
 svg {
