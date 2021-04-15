@@ -21,8 +21,7 @@ const LargeBackgroundSection = () => {
         trigger: bgImage.current,
         start: "top top",
         end: "bottom top",
-        markers: false,
-        immediateRender: false
+
       }, // start the animation when "bgImage" enters the viewport (once)
       y: 200,
     });
@@ -43,7 +42,7 @@ const LargeBackgroundSection = () => {
 
         {/* <h1 style={{paddingBottom: '1rem' }}>Derek Moore</h1> */}
         <AnimatedWords />
-        <p>website experiences</p>
+        <p>user experiences</p>
         <button type="button" className="btn" onClick={(e)=>{console.log('clicked!', e.target.innerHTML)}}>
           Download Resume
         </button>

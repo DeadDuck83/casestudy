@@ -6,9 +6,11 @@ export default styled.div`
 svg {
     width: 100%;
     overflow:visible;
+    height: 5rem;
+    padding-top: 5px;
 }
 .filled-heading {
-  font-family: 'Elsie Swash Caps', sans-serif;
+  font-family: 'Elsie', sans-serif;
     font-size: 5em;
     line-height: 0.9;
     font-weight:900;
@@ -51,5 +53,10 @@ svg {
         opacity: 0;
     }
 }
+@media (max-width: 700px) {
+  .filled-heading {
+    font-size: 4rem;
+  }
 
+  }
 `;

@@ -28,7 +28,7 @@ const AnimatedWords = (props) => {
               <text y="70">Designing</text>
             </g>
             <g class="third">
-              <text y="70">DIYing</text>
+              <text y="70">DIY-ing</text>
             </g>
           </mask>
 

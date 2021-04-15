@@ -13,7 +13,7 @@ background: var(--alabaster-10);
       /* background-attachment: fixed; */
     }
     .contentSplit {
-      padding: clamp(2rem, 4vw, 5rem);
+      padding: clamp(2rem, 6vw, 5rem);
       align-self: center;
       h2 {
         font-size: var(--heading-1);
