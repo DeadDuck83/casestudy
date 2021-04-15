@@ -11,8 +11,8 @@ const UiUx = () => {
         <div className="intro">
           <h2>What is a Ux/Ui Developer?</h2>
           <p>In short, it's a designer that can develop.</p>
-          <p>But, wy is this a good thing?</p>
-          <p>As a designer that can develop has the potential to produce a stronger product and one that can get to market quicker. A win win for most companies!</p>
+          <p>But, why is this a good thing?</p>
+          <p>A designer that can develop has the potential to produce a more cohesive experience and one that can get to market quicker. A win win for most companies!</p>
         </div>
         <div className="cards">
           <div className="card ui">

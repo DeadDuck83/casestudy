@@ -5,6 +5,7 @@ import SplitContent from '../components/SplitContent';
 
 
 import PropTypes from 'prop-types'
+import AvalonAnimation from '../components/AvalonAnimation';
 
 const work = props => {
   const project1 = {
@@ -58,6 +59,7 @@ const work = props => {
   back
   </Link>
   <section>
+  <AvalonAnimation />
   <SplitContent content={project1} />
   <SplitContent content={project2} />
   <SplitContent content={project3} />
