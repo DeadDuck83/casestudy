@@ -1,0 +1,160 @@
+[
+  {
+    "url": "middlegrounds",
+    "title": "Social Meetup web app",
+    "titleBg": "https://source.unsplash.com/1000x800/?computer,new",
+    "titleSub": "titleSub",
+    "request": {
+      "body": "You are looking for a place to meet up between two people. You provide requirements (WiFi, coffee, etc) and send a link to a friend or group. Then the website would provide directions to the location between both of you based on those requirements and your locations. More people only create more cross-references.",
+      "myRole": [
+        "User Experience Researcher/Designer",
+        "User Interface Designer",
+        "Front-End Developer"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?nature"
+    },
+    "challenges": {
+      "challenges": [
+        "Social app communication Location services.",
+"Triangulation algorithm to process the distance between everyone and estimate a center.",
+"Map and amenities integration."
+      ],
+      "img": "https://source.unsplash.com/1000x800/?nature,home",
+      "body": "Timeline was our first challenge. We were asked to have this completed in 3 weeks. Also we would be working with several asks in one request."
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?ocean,teamwork",
+      "body": "Because of this type of project and the timeline. The design iteration was not a focus. We decided to find a framework online and adapt an already existing theme design. Most people would be using their phone to access the site so the design needs to accommodate that. Communication would be only set in the initial request and users first response. We would not have CI/CD live messaging. Location services would need to have access to your location so a request would need to be made to the device you are using. For Map integration we would keep it simple and only use Google Maps and affiliate API’s. "
+    },
+    "solution": {
+      "title": "Ah hah!",
+      "img": "https://source.unsplash.com/1000x800/?hawaii",
+      "body": "This is best as a responsive web-app. That way, people behind a computer or phone would be able to enter their information. We used a combination of Materialize CSS and custom CSS to quickly pump out the design. Invitations to the site user session were sent via text message or email. Accounts and guest accounts were set up for quick access or history of places. We used Google Business API and Google Location (lat long) to find people’s locations, store them and then wrote an algorythm to estimate the central location between them. Then Google would search from their Business API for an establishment with our requirements."
+    },
+    "learning": {
+      "title": "the request2",
+      "img": "https://source.unsplash.com/1000x800/?sunset",
+      "body": "Communication between devices is difficult and expensive. People did not like the ads or confusion on who has selected what requirement. Need a better UX experience for that. Also, experiences will differ from phone to phone. More testing was needed to have a more standardized experience. A recommendation would be to use something like Storybook for UI consistancy."
+    }
+  },
+  {
+    "url": "ecom",
+
+    "title": "title",
+    "titleBg": "https://source.unsplash.com/1000x800/?computer",
+    "titleSub": "titleSub3",
+    "request": {
+      "body": "the request",
+      "myRole": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?nature,trail"
+    },
+    "challenges": {
+      "title": "the request3",
+      "challenges": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?nature,teamwork3",
+      "body": "body tex3t"
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?nature,teamwork3",
+      "body": "body text3"
+    },
+    "solution": {
+      "title": "the request3",
+      "img": "https://source.unsplash.com/1000x800/?nature,teamwork",
+      "body": "body text3"
+    },
+    "learning": {
+      "title": "the request3",
+      "img": "https://source.unsplash.com/1000x800/?nature,teamwork",
+      "body": "body text"
+    }
+  },
+  {
+    "url": "padi",
+
+    "title": "title44",
+    "titleBg": "https://source.unsplash.com/1000x800/?helicopter,nature",
+    "titleSub": "titleSub",
+    "request": {
+      "body": "the request4",
+      "myRole": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?beautiful, girl"
+    },
+    "challenges": {
+      "title": "the request4",
+      "challenges": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?teamwork",
+      "body": "body text"
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?nature,turtle",
+      "body": "body text"
+    },
+    "solution": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?water",
+      "body": "body text"
+    },
+    "learning": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?nature,frozen",
+      "body": "body text"
+    }
+  },
+  {
+    "url": "truquality",
+
+    "title": "title44",
+    "titleBg": "https://source.unsplash.com/1000x800/?helicopter,sunset",
+    "titleSub": "titleSub",
+    "request": {
+      "body": "the request4",
+      "myRole": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?beautiful,girl"
+    },
+    "challenges": {
+      "title": "the request4",
+      "challenges": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?teamwork",
+      "body": "body text"
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?nature,turtle",
+      "body": "body text"
+    },
+    "solution": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?water",
+      "body": "body text"
+    },
+    "learning": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?nature,frozen",
+      "body": "body text"
+    }
+  }
+]

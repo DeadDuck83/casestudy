@@ -20,9 +20,9 @@ const AvalonAnimation = () => {
       ease: "power4.inOut",
       yoyo: true,
     });
-    oceanTl.to(ocean.current, { x: 1, y: 1, duration: 2 });
+    oceanTl.to(ocean.current, { x: 3, y: 1, duration: 2 });
     oceanTl.to(ocean.current, { x: 0, y: 2, duration: 2 });
-    oceanTl.to(ocean.current, { x: -1, y: 1, duration: 2 });
+    oceanTl.to(ocean.current, { x: -3, y: 1, duration: 2 });
     oceanTl.to(ocean.current, { x: 0, y: 0, duration: 2 });
 
     // island into view:
