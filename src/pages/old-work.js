@@ -6,6 +6,7 @@ import SplitContent from '../components/SplitContent';
 
 import PropTypes from 'prop-types'
 import AvalonAnimation from '../components/AvalonAnimation';
+import CaseStudies from '../components/CaseStudies/CaseStudies';
 
 const work = props => {
   const project1 = {
@@ -48,6 +49,7 @@ const work = props => {
       imageUrl: 'https://source.unsplash.com/random',
     }
   }
+  console.log(project1);
   return (
     <div>
     <Head>
@@ -60,10 +62,8 @@ const work = props => {
   </Link>
   <section>
   <AvalonAnimation />
-  <SplitContent content={project1} />
-  <SplitContent content={project2} />
-  <SplitContent content={project3} />
-  <SplitContent content={project4} />
+
+ <CaseStudies />
   </section>
     </div>
   )
