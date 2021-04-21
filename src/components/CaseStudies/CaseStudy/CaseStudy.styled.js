@@ -28,6 +28,8 @@ div:nth-child(even){
   }
   .request , .challenges, .approach, .solution, .learnings {
     display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 2rem;
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr; */

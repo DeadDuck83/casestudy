@@ -1,9 +1,9 @@
 [
   {
     "url": "middlegrounds",
-    "title": "Social Meetup web app",
+    "title": "Social meetup web app",
     "titleBg": "https://source.unsplash.com/1000x800/?computer,new",
-    "titleSub": "titleSub",
+    "titleSub": "A simple concept. A group of friends are texting and want to find a place between everyone",
     "request": {
       "body": "You are looking for a place to meet up between two people. You provide requirements (WiFi, coffee, etc) and send a link to a friend or group. Then the website would provide directions to the location between both of you based on those requirements and your locations. More people only create more cross-references.",
       "myRole": [
@@ -40,9 +40,9 @@
   {
     "url": "ecom",
 
-    "title": "title",
+    "title": "Enterprise ecommerce platform",
     "titleBg": "https://source.unsplash.com/1000x800/?computer",
-    "titleSub": "titleSub3",
+    "titleSub": "This thing is a beast. From designing and developing. To re-designing and re-developing",
     "request": {
       "body": "the request",
       "myRole": [
@@ -80,9 +80,9 @@
   {
     "url": "padi",
 
-    "title": "title44",
+    "title": "MyPADI.PADI campaign",
     "titleBg": "https://source.unsplash.com/1000x800/?helicopter,nature",
-    "titleSub": "titleSub",
+    "titleSub": "A site that can tell a story and show off the beauty of the ocean",
     "request": {
       "body": "the request4",
       "myRole": [
@@ -120,9 +120,9 @@
   {
     "url": "truquality",
 
-    "title": "title44",
+    "title": "TruQuality product validator",
     "titleBg": "https://source.unsplash.com/1000x800/?helicopter,sunset",
-    "titleSub": "titleSub",
+    "titleSub": "The proof is in the pudd'n",
     "request": {
       "body": "the request4",
       "myRole": [
