@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 const Skills = (props) => {
   return (
     <SkillsWrapper>
-      <div className="skillsContainer" style={{ backgroundImage: `url("/images/skills-bg.jpg")`}}>
+      <div className="skillsContainer" style={{ backgroundImage: `url("/images/skills-bg.jpg")`, backgroundSize: 'cover'}}>
         <div className="skillsWrapper">
           <h2 className="skillHeader">Skill Set</h2>
           <p className="skillIntro">

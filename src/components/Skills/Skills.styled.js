@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export default styled.section`
-  background-size: cover;
   .skillsWrapper {
     max-width: var(--containerMax);
     margin: 0 auto;
