@@ -10,12 +10,13 @@ export default styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 2rem;
+      margin: 1rem 2rem 2rem 2rem;
       color: white;
       div {
         padding: 0;
-        width: 20%;
-        font-size:.85rem;
+        width: 17%;
+        font-size:.7rem;
+        line-height:1.1rem;
       }
       .good {
         background: var(--primary);
