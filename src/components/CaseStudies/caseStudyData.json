@@ -156,5 +156,45 @@
       "img": "https://source.unsplash.com/1000x800/?nature,frozen",
       "body": "body text"
     }
+  },
+  {
+    "url": "plmc",
+
+    "title": "Tech focused Functional Clinic Design",
+    "titleBg": "https://source.unsplash.com/1000x800/?technology,healthcare",
+    "titleSub": "PLMC is a center designed around using the advancement of tech and functional health",
+    "request": {
+      "body": "Concept the entire center. Base it on several things...",
+      "myRole": [
+        "UX Research",
+        "UX Tester",
+        "UI Designer"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?testing,research"
+    },
+    "challenges": {
+      "title": "the request4",
+      "challenges": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?teamwork,challenge",
+      "body": "There is a lot to unpack here..."
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?repeat,design",
+      "body": "testing iterate testing iterate"
+    },
+    "solution": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?water",
+      "body": "Where it stands now..."
+    },
+    "learning": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?nature,frozen",
+      "body": "So many things to learn from a game-changing challenge like this."
+    }
   }
 ]

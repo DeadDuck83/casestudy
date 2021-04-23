@@ -17,7 +17,7 @@ const ScrollDown = () => {
   return (
     <ScrollDownWrapper className="action">
 
-<ChevronsDown ref={downArrow} color="var(--success)" size={30} />
+<ChevronsDown ref={downArrow} color="var(--banana)" size={30} />
 
     </ScrollDownWrapper>
   )

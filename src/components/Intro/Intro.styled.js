@@ -1,17 +1,27 @@
 import styled from 'styled-components';
 
 export default styled.section`
-background: var(--alabaster);
+background: var(--primary);
 padding: 3rem;
 .intro {
   max-width: var(--containerMax);
   margin: 0 auto;
-
-  .burst {
+  .oneLiner {
+    text-align: center;
+    font-size: var(--xtra-heading);
+    .burst {
     margin: 0 auto;
     text-align: center;
+    font-family: var(--bodyFont);
+    display: inline;
   }
-  p {
+  h1 {
+    display: inline;
+    font-size: var(--xtra-heading);
+  }
+
+  }
+p {
     max-width: 70ch;
     margin: 0 auto;
     padding: var(--paragraphPadding);

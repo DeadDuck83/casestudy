@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export default styled.section`
-background: var(--alabaster-10);
+background: var(--accent);
   .splitContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: calc(100vw / 2);
     .imageSplit {
-      background: greenyellow;
+
       background-repeat: none;
       background-size: cover;
       /* background-attachment: fixed; */

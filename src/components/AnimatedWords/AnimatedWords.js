@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import AnimatedWordsWrapper from './AnimatedWords.styled';
 
 const AnimatedWords = (props) => {
-  const colors = ['#179292','#d98994','#d0587e'];
+  const colors = ['#8bb1ae','#e36245','#fed671'];
   useEffect(() => {
 
     const blobs = document.querySelectorAll("#background path");
