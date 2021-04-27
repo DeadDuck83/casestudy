@@ -20,14 +20,14 @@ export default styled.section`
       }
       .good {
         background: var(--primary);
-        border-radius: 15px 0 0 15px;
+        border-radius: 0 15px 15px 0;
       }
       .better {
         background: var(--banana);
       }
       .best {
         background: var(--sea-foam);
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px 0 0 15px;
       }
     }
   }

@@ -7,7 +7,8 @@ import Image from 'next/image';
 const UiUx = () => {
   return (
     <UxUiWrapper>
-      <div className="backgroundImg wrapper" style={{ backgroundImage: `url("/images/desk-backdrop2.jpeg")`}}>
+      <div className="backgroundImg wrapper">
+      {/* <div className="backgroundImg wrapper" style={{ backgroundImage: `url("/images/desk-backdrop2.jpeg")`}}> */}
         <div className="intro">
           <h2>What is a Ux/Ui Developer?</h2>
           <p>In short, it's a designer that can develop.</p>

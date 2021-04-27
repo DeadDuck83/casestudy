@@ -7,7 +7,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 const Skills = (props) => {
   return (
     <SkillsWrapper>
-      <div className="skillsContainer" style={{ backgroundImage: `url("/images/skills-mapSVG-01.svg")`, backgroundSize: 'cover'}}>
+      <div className="skillsContainer">
+      {/* <div className="skillsContainer" style={{ backgroundImage: `url("/images/skills-mapSVG-01.svg")`, backgroundSize: 'cover'}}> */}
         <div className="skillsWrapper">
           <h2 className="skillHeader">Skill Set</h2>
           <p className="skillIntro">
@@ -19,9 +20,9 @@ const Skills = (props) => {
               <Tab className="btn customBtn">UI/UX design</Tab>
             </TabList>
             <div className="range">
-            <div className="good">Good</div>
-            <div className="better">Better</div>
-            <div className="best">Best</div>
+            <div className="best">Solid</div>
+            <div className="better">Good</div>
+            <div className="good">Learning</div>
           </div>
             <TabPanel>
               <div className="skills">
