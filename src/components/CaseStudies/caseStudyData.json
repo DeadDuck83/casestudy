@@ -1,8 +1,8 @@
 [
   {
     "url": "middlegrounds",
-    "title": "Social meetup web app",
-    "titleBg": "https://source.unsplash.com/1000x800/?computer,new",
+    "title": "Location Web app",
+    "titleBg": "/images/middle-grounds.jpg",
     "titleSub": "A simple concept. A group of friends are texting and want to find a place between everyone",
     "request": {
       "body": "You are looking for a place to meet up between two people. You provide requirements (WiFi, coffee, etc) and send a link to a friend or group. Then the website would provide directions to the location between both of you based on those requirements and your locations. More people only create more cross-references.",
@@ -40,8 +40,8 @@
   {
     "url": "ecom",
 
-    "title": "Enterprise ecommerce platform",
-    "titleBg": "https://source.unsplash.com/1000x800/?computer",
+    "title": "E-com Rebuild",
+    "titleBg": "/images/ecom-rebuild.jpg",
     "titleSub": "This thing is a beast. From designing and developing. To re-designing and re-developing",
     "request": {
       "body": "the request",
@@ -80,8 +80,8 @@
   {
     "url": "padi",
 
-    "title": "MyPADI.PADI campaign",
-    "titleBg": "https://source.unsplash.com/1000x800/?helicopter,nature",
+    "title": "CMS Landing Page",
+    "titleBg": "/images/cms-landing.jpg",
     "titleSub": "A site that can tell a story and show off the beauty of the ocean",
     "request": {
       "body": "the request4",
@@ -120,8 +120,8 @@
   {
     "url": "truquality",
 
-    "title": "TruQuality product validator",
-    "titleBg": "https://source.unsplash.com/1000x800/?helicopter,sunset",
+    "title": "Product Validator",
+    "titleBg": "/images/product-validator.jpg",
     "titleSub": "The proof is in the pudd'n",
     "request": {
       "body": "the request4",
@@ -160,8 +160,48 @@
   {
     "url": "plmc",
 
-    "title": "Tech focused Functional Clinic Design",
-    "titleBg": "https://source.unsplash.com/1000x800/?technology,healthcare",
+    "title": "Functional Center",
+    "titleBg": "/images/functional-clinic.jpg",
+    "titleSub": "PLMC is a center designed around using the advancement of tech and functional health",
+    "request": {
+      "body": "Concept the entire center. Base it on several things...",
+      "myRole": [
+        "UX Research",
+        "UX Tester",
+        "UI Designer"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?testing,research"
+    },
+    "challenges": {
+      "title": "the request4",
+      "challenges": [
+        "role1",
+        "role2",
+        "rold3"
+      ],
+      "img": "https://source.unsplash.com/1000x800/?teamwork,challenge",
+      "body": "There is a lot to unpack here..."
+    },
+    "approach": {
+      "img": "https://source.unsplash.com/1000x800/?repeat,design",
+      "body": "testing iterate testing iterate"
+    },
+    "solution": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?water",
+      "body": "Where it stands now..."
+    },
+    "learning": {
+      "title": "the request",
+      "img": "https://source.unsplash.com/1000x800/?nature,frozen",
+      "body": "So many things to learn from a game-changing challenge like this."
+    }
+  },
+  {
+    "url": "icebreakr",
+
+    "title": "Social Chat App",
+    "titleBg": "/images/social-chat.jpg",
     "titleSub": "PLMC is a center designed around using the advancement of tech and functional health",
     "request": {
       "body": "Concept the entire center. Base it on several things...",

@@ -4,8 +4,10 @@
 @import 'mixins/avalonAnimation';
 @import "mixins/buttons";
 
+:root{
+  font-size:16px;
+}
 body {
-
   --primary: var(--tangerine);
   --primaryHighlight: var(--tangerine-10);
   --accent: var(--sea-foam);
@@ -68,8 +70,8 @@ body {
   --smallestFontSize: 0.512rem;
   --xtra-big-ass-heading: 3.052rem;
   --xtra-heading: 2.441rem;
-  --heading-1: 1.953rem;
-  --heading-2: 1.563rem;
+  --heading-1: 2rem;
+  --heading-2: 1.763rem;
   --heading-3: 1.25rem;
   --heading-4: var(--baseFontSize);
   --heading-5: var(--smallFontSize);

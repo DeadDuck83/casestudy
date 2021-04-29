@@ -11,14 +11,16 @@ import Skills from '../components/Skills';
 export default function Home() {
   const homepageContent = {
     caseStudy: {
-      headline: 'Case Studies',
-      body: 'Case studies are a great way to let people peak behind the curtain to learn more about projects… because some of the most important steps that are taken in any project are the ones that most people never see or hear about but are the most interesting and educational. Here I provide several examples of UX / UI and Development.',
-      link: '/work',
-      linkText:'See all my case studies',
-      imageOn: 'right',
-      imageUrl: '/images/UX-w.jpeg',
+      headline: "Case Studies",
+      body: "Case studies are a great way to let people peak behind the curtain to learn more about projects… because some of the most important steps that are taken in any project are the ones that most people never see or hear about but are the most interesting and educational. Here I provide several examples of UX / UI and Development.",
+      link: "/work",
+      linkText:"See all my case studies",
+      imageOn: "right",
+      imageUrl: "/images/UX-w.jpeg",
     }
   }
+  const indexIntro = {headline: "Hello, I am ", color: "var(--primary)", seoh1:"Derek Moore.", body: "The process of a project can be infinitely more complicated than the solution portrays. There are a lot of problems that needed to be solved and new ones that arise during that process. I have always found that more interesting than the final presentation. Sometimes design can suffer from decisions made or scope creeps or whatever. The abiility to adapt and solve the problems in front of you give a much better presentation of how someone works and what their process looks like."}
+
 
   return (
     <div>
@@ -37,7 +39,7 @@ export default function Home() {
 
       <main className='box-border'>
         <LargeBackgroundSection />
-        <Intro />
+        <Intro content={indexIntro} />
 
         <Skills />
 

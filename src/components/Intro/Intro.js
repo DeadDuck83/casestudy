@@ -1,20 +1,21 @@
 import React from "react";
 import IntroStyled from "./Intro.styled";
 
-const Intro = () => {
+const Intro = ({content}) => {
+  console.log(content)
   return (
-    <IntroStyled>
+    <IntroStyled color={content.color}>
       <div className="intro">
-        <div className="oneLiner">
-          <h2 className="burst">Hello, I am </h2>
-          <h1>Derek Moore.</h1>
-        </div>
+      {content.seoh1 ?  <div className="oneLiner">
+          <h2 className="burst">{content.headline}</h2>
+          <h1>{content.seoh1}</h1>
+        </div>: <div className="oneLiner">
+          <h2 className="burst">{content.headline}</h2>
+        </div>}
+
 
         <p>
-          I'm a front-end web developer and UX designer from Avalon, California.
-          I enjoy animation and complex user interface problems. I have 13 years
-          in Graphic/UX design and now focus my energy on front-end web
-          development.
+        {content.body}
         </p>
       </div>
     </IntroStyled>

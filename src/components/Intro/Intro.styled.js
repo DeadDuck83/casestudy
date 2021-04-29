@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.section`
-background: var(--primary);
+background: ${props => props.color};
 padding: 3rem;
 .intro {
   max-width: var(--containerMax);

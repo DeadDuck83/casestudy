@@ -70,7 +70,7 @@ export default styled.section`
     grid-template-columns: repeat(3, 200px);
     align-items: center;
     justify-content: center;
-    grid-gap: 1rem;
+    grid-gap: 5px;
 
     .skill {
       color: white;
@@ -78,22 +78,22 @@ export default styled.section`
       grid-template-columns: 30px 1fr;
       overflow: hidden;
       align-items: center;
-      border-radius: 25px;
+      border-radius: 5px;
       background: rgb(90, 95, 96);
       background: linear-gradient(
         90deg,
         rgba(90, 95, 96, 1) 0%,
         rgba(60, 78, 82, 1) 50%
       );
-      padding: 8px;
+      /* padding: 8px; */
       span {
         padding: 0 1rem;
         text-align: left;
       }
       img {
-        width: 30px;
-        height: 30px;
-        border-radius: 15px;
+        width: 35px;
+        height: 35px;
+        /* border-radius: 15px; */
         box-shadow: 0 0.8px 1.3px rgba(0, 0, 0, 0.114),
           0 2.7px 4.5px rgba(0, 0, 0, 0.116), 0 12px 20px rgba(0, 0, 0, 0.36);
       }
